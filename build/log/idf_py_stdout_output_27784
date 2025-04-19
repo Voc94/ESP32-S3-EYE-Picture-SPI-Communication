@@ -1,0 +1,7 @@
+[1/4] C:\Windows\system32\cmd.exe /C "cd /D "D:\arduino esp s3\esp-who-master\examples\human_face_detect\build\esp-idf\esptool_py" && C:\Espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/partition_table/check_sizes.py --offset 0x8000 partition --type app "D:/arduino esp s3/esp-who-master/examples/human_face_detect/build/partition_table/partition-table.bin" "D:/arduino esp s3/esp-who-master/examples/human_face_detect/build/human_face_detect.bin""
+human_face_detect.bin binary size 0x5d020 bytes. Smallest app partition is 0x7d0000 bytes. 0x772fe0 bytes (95%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] C:\Windows\system32\cmd.exe /C "cd /D "D:\arduino esp s3\esp-who-master\examples\human_face_detect\build\bootloader\esp-idf\esptool_py" && C:\Espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 "D:/arduino esp s3/esp-who-master/examples/human_face_detect/build/bootloader/bootloader.bin""
+Bootloader binary size 0x57c0 bytes. 0x2840 bytes (31%) free.
+[3/4] No install step for 'bootloader'
+[4/4] Completed 'bootloader'

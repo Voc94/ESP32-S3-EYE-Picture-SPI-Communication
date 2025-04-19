@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+D:/arduino esp s3/esp-who-master/examples/human_face_detect/build/CMakeFiles/bootloader
+D:/arduino esp s3/esp-who-master/examples/human_face_detect/build/CMakeFiles/bootloader.rule
+D:/arduino esp s3/esp-who-master/examples/human_face_detect/build/CMakeFiles/bootloader-complete.rule
+D:/arduino esp s3/esp-who-master/examples/human_face_detect/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+D:/arduino esp s3/esp-who-master/examples/human_face_detect/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+D:/arduino esp s3/esp-who-master/examples/human_face_detect/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+D:/arduino esp s3/esp-who-master/examples/human_face_detect/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+D:/arduino esp s3/esp-who-master/examples/human_face_detect/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+D:/arduino esp s3/esp-who-master/examples/human_face_detect/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+D:/arduino esp s3/esp-who-master/examples/human_face_detect/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
