@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "human_face_detect",
-    "project_version":    "1",
+    "project_version":    "5c853aa-dirty",
     "project_path":       "D:/arduino esp s3/esp-who-master/examples/human_face_detect",
     "idf_path":           "C:/Espressif/frameworks/esp-idf-v5.4.1-2",
     "build_dir":          "D:/arduino esp s3/esp-who-master/examples/human_face_detect/build",

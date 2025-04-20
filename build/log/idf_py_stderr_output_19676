@@ -1,0 +1,8 @@
+CMake Error at C:/Espressif/frameworks/esp-idf-v5.4.1-2/tools/cmake/build.cmake:610 (message):
+  ERROR: Manifest is not valid
+
+Call Stack (most recent call first):
+  C:/Espressif/frameworks/esp-idf-v5.4.1-2/tools/cmake/project.cmake:717 (idf_build_process)
+  CMakeLists.txt:15 (project)
+
+

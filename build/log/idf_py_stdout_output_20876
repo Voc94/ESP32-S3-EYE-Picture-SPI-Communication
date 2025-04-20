@@ -1,0 +1,263 @@
+[1/117] Building C object esp-idf/espressif__esp32_s3_eye_noglib/CMakeFiles/__idf_espressif__esp32_s3_eye_noglib.dir/esp32_s3_eye.c.obj
+[2/117] Building C object esp-idf/espressif__esp32_s3_eye_noglib/CMakeFiles/__idf_espressif__esp32_s3_eye_noglib.dir/esp32_s3_eye_idf5.c.obj
+[3/117] Building CXX object esp-idf/who_lcd/CMakeFiles/__idf_who_lcd.dir/who_lvgl_lcd.cpp.obj
+[4/117] Building CXX object esp-idf/who_frame_cap/CMakeFiles/__idf_who_frame_cap.dir/who_frame_cap.cpp.obj
+[5/117] Building CXX object esp-idf/who_detect/CMakeFiles/__idf_who_detect.dir/who_detect_base.cpp.obj
+[6/117] Building CXX object esp-idf/who_detect/CMakeFiles/__idf_who_detect.dir/who_detect_lcd.cpp.obj
+[7/117] Building CXX object esp-idf/who_detect/CMakeFiles/__idf_who_detect.dir/who_detect_utils.cpp.obj
+[8/117] Building CXX object esp-idf/who_detect/CMakeFiles/__idf_who_detect.dir/who_detect_term.cpp.obj
+[9/117] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/session.pb-c.c.obj
+[10/117] Building CXX object esp-idf/who_cam/CMakeFiles/__idf_who_cam.dir/who_cam_s3/who_s3_cam.cpp.obj
+In file included from D:/arduino esp s3/esp-who-master/examples/human_face_detect/managed_components/espressif__esp32_s3_eye_noglib/include/bsp/esp-bsp.h:8,
+                 from D:/arduino esp s3/esp-who-master/components/who_peripherals/who_cam/who_cam_s3/who_s3_cam.cpp:4:
+D:/arduino esp s3/esp-who-master/components/who_peripherals/who_cam/who_cam_s3/who_s3_cam.cpp: In constructor 'who::cam::WhoS3Cam::WhoS3Cam(pixformat_t, framesize_t, uint8_t, bool)':
+D:/arduino esp s3/esp-who-master/examples/human_face_detect/managed_components/espressif__esp32_s3_eye_noglib/include/bsp/esp32_s3_eye.h:224:5: warning: missing initializer for member 'camera_config_t::grab_mode' [-Wmissing-field-initializers]
+  224 |     }
+      |     ^
+D:/arduino esp s3/esp-who-master/components/who_peripherals/who_cam/who_cam_s3/who_s3_cam.cpp:21:37: note: in expansion of macro 'BSP_CAMERA_DEFAULT_CONFIG'
+   21 |     camera_config_t camera_config = BSP_CAMERA_DEFAULT_CONFIG;
+      |                                     ^~~~~~~~~~~~~~~~~~~~~~~~~
+[11/117] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_console.c.obj
+[12/117] Linking C static library esp-idf\espressif__esp32_s3_eye_noglib\libespressif__esp32_s3_eye_noglib.a
+[13/117] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_httpd.c.obj
+[14/117] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security0.c.obj
+[15/117] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security1.c.obj
+[16/117] Building CXX object esp-idf/who_detect_app/CMakeFiles/__idf_who_detect_app.dir/who_detect_app.cpp.obj
+[17/117] Building CXX object esp-idf/espressif__human_face_detect/CMakeFiles/__idf_espressif__human_face_detect.dir/human_face_detect.cpp.obj
+[18/117] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/crypto/srp6a/esp_srp_mpi.c.obj
+[19/117] Building C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace_util.c.obj
+[20/117] Building ASM object esp-idf/espressif__human_face_detect/CMakeFiles/__idf_espressif__human_face_detect.dir/__/__/human_face_detect.espdl.S.obj
+[21/117] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security2.c.obj
+[22/117] Building C object esp-idf/json/CMakeFiles/__idf_json.dir/cJSON/cJSON_Utils.c.obj
+[23/117] Building C object esp-idf/json/CMakeFiles/__idf_json.dir/cJSON/cJSON.c.obj
+[24/117] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/crypto/srp6a/esp_srp.c.obj
+[25/117] Building C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace.c.obj
+[26/117] Building C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/host_file_io.c.obj
+[27/117] Building C object esp-idf/esp_driver_cam/CMakeFiles/__idf_esp_driver_cam.dir/dvp_share_ctrl.c.obj
+[28/117] Linking C static library esp-idf\who_cam\libwho_cam.a
+[29/117] Building C object esp-idf/esp_driver_cam/CMakeFiles/__idf_esp_driver_cam.dir/esp_cam_ctlr.c.obj
+[30/117] Building C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/port/port_uart.c.obj
+[31/117] Building C object esp-idf/cmock/CMakeFiles/__idf_cmock.dir/CMock/src/cmock.c.obj
+[32/117] Linking C static library esp-idf\unity\libunity.a
+[33/117] Linking C static library esp-idf\esp_https_server\libesp_https_server.a
+[34/117] Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj
+[35/117] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_netif_glue.c.obj
+[36/117] Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj
+[37/117] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/phy/esp_eth_phy_802_3.c.obj
+[38/117] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth.c.obj
+[39/117] Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj
+[40/117] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl.c.obj
+[41/117] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl_handler.c.obj
+[42/117] Linking C static library esp-idf\protocomm\libprotocomm.a
+[43/117] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/proto-c/esp_local_ctrl.pb-c.c.obj
+[44/117] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_init.c.obj
+[45/117] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl_transport_httpd.c.obj
+[46/117] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_flash.c.obj
+[47/117] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_sha.c.obj
+[48/117] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_crc.c.obj
+[49/117] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_uart.c.obj
+[50/117] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_binary.c.obj
+[51/117] Linking C static library esp-idf\json\libjson.a
+[52/117] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_elf.c.obj
+[53/117] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_common.c.obj
+[54/117] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/port/xtensa/core_dump_port.c.obj
+[55/117] Building C object esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.obj
+[56/117] Building C object esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_access.c.obj
+[57/117] Building C object esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_masks.c.obj
+[58/117] Building C object esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_apis.c.obj
+[59/117] Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_outbox.c.obj
+[60/117] Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/platform_esp32_idf.c.obj
+[61/117] Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_msg.c.obj
+[62/117] Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/mqtt_client.c.obj
+[63/117] Building C object esp-idf/rt/CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_mqueue.c.obj
+[64/117] Building C object esp-idf/rt/CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_utils.c.obj
+[65/117] Building C object esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/touch_element.c.obj
+[66/117] Building C object esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/touch_button.c.obj
+[67/117] Building C object esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/touch_slider.c.obj
+[68/117] Building C object esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/touch_matrix.c.obj
+[69/117] Building C object esp-idf/usb/CMakeFiles/__idf_usb.dir/hcd_dwc.c.obj
+[70/117] Building C object esp-idf/usb/CMakeFiles/__idf_usb.dir/usb_private.c.obj
+[71/117] Building C object esp-idf/usb/CMakeFiles/__idf_usb.dir/enum.c.obj
+[72/117] Building C object esp-idf/usb/CMakeFiles/__idf_usb.dir/usb_helpers.c.obj
+[73/117] Building C object esp-idf/usb/CMakeFiles/__idf_usb.dir/hub.c.obj
+[74/117] Building C object esp-idf/usb/CMakeFiles/__idf_usb.dir/usb_host.c.obj
+[75/117] Building C object esp-idf/usb/CMakeFiles/__idf_usb.dir/usbh.c.obj
+[76/117] Building C object esp-idf/usb/CMakeFiles/__idf_usb.dir/usb_phy.c.obj
+[77/117] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_config.c.obj
+[78/117] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_scan.c.obj
+[79/117] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_ctrl.c.obj
+[80/117] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/manager.c.obj
+[81/117] Linking C static library esp-idf\espressif__human_face_detect\libespressif__human_face_detect.a
+[82/117] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_config.pb-c.c.obj
+[83/117] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/handlers.c.obj
+[84/117] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_console.c.obj
+[85/117] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_constants.pb-c.c.obj
+[86/117] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_ctrl.pb-c.c.obj
+[87/117] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_scan.pb-c.c.obj
+[88/117] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_softap.c.obj
+[89/117] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/app_main.cpp.obj
+[90/117] Linking C static library esp-idf\app_trace\libapp_trace.a
+[91/117] Linking C static library esp-idf\esp_driver_cam\libesp_driver_cam.a
+[92/117] Linking C static library esp-idf\cmock\libcmock.a
+[93/117] Linking C static library esp-idf\esp_eth\libesp_eth.a
+[94/117] Linking C static library esp-idf\esp_hid\libesp_hid.a
+[95/117] Linking C static library esp-idf\esp_local_ctrl\libesp_local_ctrl.a
+[96/117] Linking C static library esp-idf\nvs_sec_provider\libnvs_sec_provider.a
+[97/117] Linking C static library esp-idf\rt\librt.a
+[98/117] Linking C static library esp-idf\perfmon\libperfmon.a
+[99/117] Linking C static library esp-idf\espcoredump\libespcoredump.a
+[100/117] Linking C static library esp-idf\mqtt\libmqtt.a
+[101/117] Linking C static library esp-idf\touch_element\libtouch_element.a
+[102/117] Linking C static library esp-idf\wifi_provisioning\libwifi_provisioning.a
+[103/117] Linking C static library esp-idf\usb\libusb.a
+[104/117] Building CXX object esp-idf/who_lcd/CMakeFiles/__idf_who_lcd.dir/who_lcd.cpp.obj
+D:/arduino esp s3/esp-who-master/components/who_peripherals/who_lcd/who_lcd.cpp:324:12: warning: 'who::lcd::countdown_timer' defined but not used [-Wunused-variable]
+  324 | static int countdown_timer = 0;
+      |            ^~~~~~~~~~~~~~~
+D:/arduino esp s3/esp-who-master/components/who_peripherals/who_lcd/who_lcd.cpp:323:12: warning: 'who::lcd::countdown_value' defined but not used [-Wunused-variable]
+  323 | static int countdown_value = 0;
+      |            ^~~~~~~~~~~~~~~
+D:/arduino esp s3/esp-who-master/components/who_peripherals/who_lcd/who_lcd.cpp:322:13: warning: 'who::lcd::countdown_active' defined but not used [-Wunused-variable]
+  322 | static bool countdown_active = false;
+      |             ^~~~~~~~~~~~~~~~
+[105/117] Linking C static library esp-idf\who_lcd\libwho_lcd.a
+[106/117] Linking C static library esp-idf\who_frame_cap\libwho_frame_cap.a
+[107/117] Linking C static library esp-idf\who_detect\libwho_detect.a
+[108/117] Linking C static library esp-idf\who_detect_app\libwho_detect_app.a
+[109/117] Linking C static library esp-idf\main\libmain.a
+[110/117] Performing build step for 'bootloader'
+[1/115] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_crc.c.obj
+[2/115] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/src/log_timestamp_common.c.obj
+[3/115] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_timestamp.c.obj
+[4/115] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_lock.c.obj
+[5/115] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_sys.c.obj
+[6/115] Building ASM object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_longjmp.S.obj
+[7/115] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_uart.c.obj
+[8/115] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_gpio.c.obj
+[9/115] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_efuse.c.obj
+[10/115] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_spiflash.c.obj
+[11/115] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_systimer.c.obj
+[12/115] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_wdt.c.obj
+[13/115] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_print.c.obj
+[14/115] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_cache_esp32s2_esp32s3.c.obj
+[15/115] Building ASM object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_cache_writeback_esp32s3.S.obj
+[16/115] Linking C static library esp-idf\log\liblog.a
+[17/115] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_memory_utils.c.obj
+[18/115] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/cpu.c.obj
+[19/115] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/esp_cpu_intr.c.obj
+[20/115] Building C object esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj
+[21/115] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/cpu_region_protect.c.obj
+[22/115] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.obj
+[23/115] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_clk_init.c.obj
+[24/115] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/chip_info.c.obj
+[25/115] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_table.c.obj
+[26/115] Linking C static library esp-idf\esp_rom\libesp_rom.a
+[27/115] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_sleep.c.obj
+[28/115] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_time.c.obj
+[29/115] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_init.c.obj
+[30/115] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_fields.c.obj
+[31/115] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32s3/rtc_clk.c.obj
+[32/115] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_rtc_calib.c.obj
+[33/115] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_fields.c.obj
+[34/115] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_utility.c.obj
+[35/115] Linking C static library esp-idf\esp_common\libesp_common.a
+[36/115] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_api.c.obj
+[37/115] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_init.c.obj
+[38/115] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_mem.c.obj
+[39/115] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller/keys/with_key_purposes/esp_efuse_api_key.c.obj
+[40/115] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common.c.obj
+[41/115] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random.c.obj
+[42/115] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_efuse.c.obj
+[43/115] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/secure_boot.c.obj
+[44/115] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common_loader.c.obj
+[45/115] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_encrypt.c.obj
+[46/115] Linking C static library esp-idf\esp_hw_support\libesp_hw_support.a
+[47/115] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random_esp32s3.c.obj
+[48/115] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/flash_qio_mode.c.obj
+[49/115] Linking C static library esp-idf\esp_system\libesp_system.a
+[50/115] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_partitions.c.obj
+[51/115] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_utility.c.obj
+[52/115] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_loader.c.obj
+[53/115] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash_config_esp32s3.c.obj
+[54/115] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32s3/bootloader_sha.c.obj
+[55/115] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console_loader.c.obj
+[56/115] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash.c.obj
+[57/115] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32s3/bootloader_soc.c.obj
+[58/115] Building C object esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/esp_bootloader_desc.c.obj
+[59/115] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_init.c.obj
+[60/115] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console.c.obj
+[61/115] Linking C static library esp-idf\efuse\libefuse.a
+[62/115] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj
+[63/115] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj
+[64/115] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj
+[65/115] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp_image_format.c.obj
+[66/115] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_utility.c.obj
+[67/115] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_panic.c.obj
+[68/115] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj
+[69/115] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj
+[70/115] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj
+[71/115] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32s3/bootloader_esp32s3.c.obj
+[72/115] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj
+[73/115] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.obj
+[74/115] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/interrupts.c.obj
+[75/115] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.obj
+[76/115] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gpio_periph.c.obj
+[77/115] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/uart_periph.c.obj
+[78/115] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/gdma_periph.c.obj
+[79/115] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/adc_periph.c.obj
+[80/115] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/dedic_gpio_periph.c.obj
+[81/115] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/spi_periph.c.obj
+[82/115] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/pcnt_periph.c.obj
+[83/115] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/ledc_periph.c.obj
+[84/115] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdm_periph.c.obj
+[85/115] Linking C static library esp-idf\bootloader_support\libbootloader_support.a
+[86/115] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rmt_periph.c.obj
+[87/115] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/i2s_periph.c.obj
+[88/115] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/i2c_periph.c.obj
+[89/115] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/temperature_sensor_periph.c.obj
+[90/115] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/timer_periph.c.obj
+[91/115] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/lcd_periph.c.obj
+[92/115] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mpi_periph.c.obj
+[93/115] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/mcpwm_periph.c.obj
+[94/115] Linking C static library esp-idf\esp_bootloader_format\libesp_bootloader_format.a
+[95/115] Generating project_elf_src_esp32s3.c
+[96/115] Building C object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/eri.c.obj
+[97/115] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/touch_sensor_periph.c.obj
+[98/115] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/sdmmc_periph.c.obj
+[99/115] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/wdt_periph.c.obj
+[100/115] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/twai_periph.c.obj
+[101/115] Building C object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xt_trax.c.obj
+[102/115] Building C object CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj
+[103/115] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/usb_dwc_periph.c.obj
+[104/115] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32s3/rtc_io_periph.c.obj
+[105/115] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/bootloader_start.c.obj
+[106/115] Linking C static library esp-idf\spi_flash\libspi_flash.a
+[107/115] Linking C static library esp-idf\hal\libhal.a
+[108/115] Building C object esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.obj
+[109/115] Linking C static library esp-idf\micro-ecc\libmicro-ecc.a
+[110/115] Linking C static library esp-idf\soc\libsoc.a
+[111/115] Linking C static library esp-idf\xtensa\libxtensa.a
+[112/115] Linking C static library esp-idf\main\libmain.a
+[113/115] Linking C executable bootloader.elf
+[114/115] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated D:/arduino esp s3/esp-who-master/examples/human_face_detect/build/bootloader/bootloader.bin
+[115/115] C:\Windows\system32\cmd.exe /C "cd /D "D:\arduino esp s3\esp-who-master\examples\human_face_detect\build\bootloader\esp-idf\esptool_py" && C:\Espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 "D:/arduino esp s3/esp-who-master/examples/human_face_detect/build/bootloader/bootloader.bin""
+Bootloader binary size 0x57c0 bytes. 0x2840 bytes (31%) free.
+[111/117] No install step for 'bootloader'
+[112/117] Completed 'bootloader'
+[113/117] Generating ld/sections.ld
+warning: BSP_DISPLAY_LVGL_BUFFER_IN_PSRAM (defined at D:/arduino esp s3/esp-who-master/examples/human_face_detect/managed_components/espressif__esp32_s3_eye_noglib/Kconfig:90) has leading or trailing whitespace in its prompt
+[114/117] Building C object CMakeFiles/human_face_detect.elf.dir/project_elf_src_esp32s3.c.obj
+[115/117] Linking CXX executable human_face_detect.elf
+[116/117] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated D:/arduino esp s3/esp-who-master/examples/human_face_detect/build/human_face_detect.bin
+[117/117] C:\Windows\system32\cmd.exe /C "cd /D "D:\arduino esp s3\esp-who-master\examples\human_face_detect\build\esp-idf\esptool_py" && C:\Espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/partition_table/check_sizes.py --offset 0x8000 partition --type app "D:/arduino esp s3/esp-who-master/examples/human_face_detect/build/partition_table/partition-table.bin" "D:/arduino esp s3/esp-who-master/examples/human_face_detect/build/human_face_detect.bin""
+human_face_detect.bin binary size 0x5d4a0 bytes. Smallest app partition is 0x7d0000 bytes. 0x772b60 bytes (95%) free.

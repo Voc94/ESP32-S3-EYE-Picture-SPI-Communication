@@ -1,1 +1,0 @@
-warning: BSP_DISPLAY_LVGL_BUFFER_IN_PSRAM (defined at D:/arduino esp s3/esp-who-master/examples/human_face_detect/managed_components/espressif__esp32_s3_eye_noglib/Kconfig:90) has leading or trailing whitespace in its prompt
